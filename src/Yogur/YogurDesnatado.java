@@ -7,7 +7,7 @@ public class YogurDesnatado extends Yogur{
 
     @Override
     public String toString() {
-        return "YogurDesnatado []";
+        return "YogurDesnatado " + calDes;
     }
 
 }

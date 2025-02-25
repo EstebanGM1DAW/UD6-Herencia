@@ -1,6 +1,6 @@
 package Yogur;
 public class Yogur {
-    static double cal;
+    double cal=120.5;
     public Yogur(){
      this.cal = 120.5;
     }

@@ -8,6 +8,5 @@ public class TestEmpleado {
         System.out.println(D1);
         System.out.println(OF1);
         System.out.println(T1);
-
     }
 }
