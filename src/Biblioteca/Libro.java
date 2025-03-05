@@ -9,7 +9,7 @@ interface Prestamo {
 
 }
 
-public class Libro extends Publicacion {
+public class Libro extends Publicacion implements Prestamo{
     boolean prestado;
 
     public Libro(String codigoISBN, String titulo, int añoPublicacion) {
