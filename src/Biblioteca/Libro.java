@@ -1,14 +1,4 @@
 package Biblioteca;
-
-interface Prestamo {
-    public void presta();
-
-    public void devuelve();
-
-    public boolean estaPrestado();
-
-}
-
 public class Libro extends Publicacion implements Prestamo{
     boolean prestado;
 
